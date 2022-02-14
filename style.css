@@ -1,0 +1,40 @@
+body
+{
+    background-color:rgb(66, 75, 92) ;
+    text-align: center;
+    color: aquamarine;
+    font-family:  'Supermercado One', cursive;
+}
+
+.song-img
+{
+   border-radius: 50%;
+   height: 15rem;
+   width: 15rem !important;
+   margin: 10% auto;
+}
+
+.song-name
+{
+    font-size: 3rem;
+    margin-top: 6%;
+}
+
+.play-button    
+{
+    width: 5rem;
+   height: 5rem;
+    border-radius: 60%;
+}
+
+@media  screen and (max-width: 800px)
+{
+    .play-button
+    {
+       margin-top: 30%;
+    }
+   .song-img
+   {
+       margin-top: 30%;
+   }
+}
